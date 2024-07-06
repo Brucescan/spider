@@ -20,3 +20,4 @@ url = ''
 resp = session.get(url, headers=headers)
 
 print(resp.content.decode())
+resp.close()
